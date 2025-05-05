@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Vegetable Lasagna Image -->
+        <ImageView
+            android:id="@+id/vegetable_lasagna_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tandoorichicken"
+            android:scaleType="centerCrop"
+            android:contentDescription="Vegetable Lasagna" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/vegetable_lasagna_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\n• 9-12 lasagna noodles (boiled)\n• 1 cup ricotta cheese\n• 1 cup mozzarella cheese (shredded)\n• 1 cup Parmesan cheese (grated)\n• 2 cups spinach (fresh or frozen)\n• 1 cup zucchini (chopped)\n• 1 cup bell pepper (chopped)\n• 1 cup mushrooms (sliced)\n• 2 cups marinara sauce\n• 2 tbsp olive oil\n• 1 tbsp dried oregano\n• 1 tbsp dried basil\n• Salt and pepper to taste"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Steps Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Step CheckBoxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Preheat the oven to 375°F (190°C)." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: In a pan, heat olive oil and sauté the mushrooms, bell pepper, zucchini, and spinach until tender." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: In a baking dish, layer lasagna noodles, followed by a layer of the sautéed vegetables, ricotta cheese, mozzarella, Parmesan, and marinara sauce." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Repeat layers until all ingredients are used up, ending with a layer of mozzarella cheese on top." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Cover with foil and bake for 30 minutes. Then remove the foil and bake for an additional 10-15 minutes, until golden and bubbly." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 6: Let the lasagna rest for 10 minutes before serving." />
+    </LinearLayout>
+</ScrollView>

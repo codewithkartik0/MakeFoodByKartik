@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.makeyourfoodkartik">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MakeyourfoodKartik"
+        tools:targetApi="31">
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApp.Splash"> <!-- Ensure this theme is defined in styles.xml -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Other Activities -->
+        <activity android:name=".NextActivity" />
+        <activity android:name=".NonVegActivity" />
+        <activity android:name=".VegActivity" />
+        <activity android:name=".AfghaniChickenActivity" />
+        <activity android:name=".ButterChickenActivity" />
+        <activity android:name=".Chicken65Activity" />
+        <activity android:name=".TandooriChickenActivity" />
+        <activity android:name=".GarlicChickenActivity" />
+        <activity android:name=".MalaiChickenActivity" />
+        <activity android:name=".ChilliChickenActivity" />
+        <activity android:name=".ChickenVindalooActivity" />
+        <activity android:name=".ChickenKolhapuriActivity" />
+        <activity android:name=".ChickenCurryActivity" />
+        <activity android:name=".AlooGobiActivity" />
+        <activity android:name=".ChickpeaCurryActivity" />
+        <activity android:name=".MushroomStroganoffActivity" />
+        <activity android:name=".PannerButterMasalaActivity" />
+        <activity android:name=".VegetableBiryaniActivity" />
+        <activity android:name=".VegetableLasagnaActivity" />
+        <activity android:name=".PalakPaneerActivity" />
+        <activity android:name=".VegetableStirFryActivity" />
+        <activity android:name=".PastaPrimaveraActivity" />
+        <activity android:name=".RegisterActivity" />
+
+
+
+    </application>
+</manifest>

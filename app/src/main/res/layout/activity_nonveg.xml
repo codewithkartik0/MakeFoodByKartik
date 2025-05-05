@@ -1,0 +1,263 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vegnonveg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tandoori Chicken -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tandoorichicken" />
+
+            <Button
+                android:id="@+id/tandoori_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Tandoori Chicken"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Butter Chicken -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/butterchiken" />
+
+            <Button
+                android:id="@+id/butter_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Butter Chicken"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Afghani Chicken -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/afganichicken" />
+
+            <Button
+                android:id="@+id/afghani_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Afghani Chicken"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Chilli Chicken -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chillichicken" />
+
+            <Button
+                android:id="@+id/chilli_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Chilli Chicken"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Chicken Curry -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chickencurry" />
+
+            <Button
+                android:id="@+id/chicken_curry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Chicken Curry"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Garlic Chicken -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/garlicchicken" />
+
+            <Button
+                android:id="@+id/garlic_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Garlic Chicken"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Malai Chicken -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/malaichicken" />
+
+            <Button
+                android:id="@+id/malai_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Malai Chicken"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Chicken 65 -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chicken65" />
+
+            <Button
+                android:id="@+id/chicken65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Chicken 65"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Chicken Kolhapuri -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kolhapurichicken" />
+
+            <Button
+                android:id="@+id/chicken_kolhapuri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Chicken Kolhapuri"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Chicken Vindaloo -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chickenvindaloo" />
+
+            <Button
+                android:id="@+id/chicken_vindaloo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#80000000"
+                android:text="Chicken Vindaloo"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Chicken Kolhapuri Image -->
+        <ImageView
+            android:id="@+id/chicken_kolhapuri_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tandoorichicken"
+            android:scaleType="centerCrop"
+            android:contentDescription="Chicken Kolhapuri" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/chicken_kolhapuri_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\n• 500g chicken (bone-in pieces)\n• 2 onions (finely chopped)\n• 2 tomatoes (pureed)\n• 1 tbsp ginger-garlic paste\n• 1 tsp turmeric powder\n• 1 tsp red chili powder\n• 1 tsp coriander powder\n• 1 tsp garam masala\n• 1/2 tsp cumin seeds\n• 1 tbsp Kolhapuri masala (or substitute with garam masala)\n• 2 tbsp oil\n• Salt to taste\n• Fresh coriander leaves for garnish"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Steps Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Step CheckBoxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Heat oil in a pan, sauté cumin seeds and onions until golden." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: Add ginger-garlic paste and cook until fragrant." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Add pureed tomatoes, turmeric, chili, coriander powder, and salt. Cook for 5 minutes." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Add chicken pieces, cook until browned and then add water." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Cover and cook for 20 minutes, add Kolhapuri masala, cook for an additional 10 minutes." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 6: Garnish with coriander leaves. Serve hot with chapati or rice." />
+    </LinearLayout>
+</ScrollView>

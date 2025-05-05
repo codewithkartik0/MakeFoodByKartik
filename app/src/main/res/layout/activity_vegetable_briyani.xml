@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Vegetable Biryani Image -->
+        <ImageView
+            android:id="@+id/vegetable_biryani_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tandoorichicken"
+            android:scaleType="centerCrop"
+            android:contentDescription="Vegetable Biryani" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/vegetable_biryani_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\n• 1 cup basmati rice\n• 1/2 cup mixed vegetables (carrot, peas, beans)\n• 1 onion (finely sliced)\n• 2 tomatoes (chopped)\n• 1 tbsp ginger-garlic paste\n• 1/2 tsp garam masala\n• 1/2 tsp cumin seeds\n• 1/4 tsp turmeric powder\n• 1 tbsp yogurt\n• Fresh coriander for garnish\n• Salt to taste\n• 2 cups water"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Steps Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Step CheckBoxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Heat oil, sauté cumin seeds and onions until golden." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: Add ginger-garlic paste, chopped tomatoes, and cook for 5 minutes." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Add mixed vegetables, garam masala, turmeric, and cook for 10 minutes." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Add yogurt and rice, stir gently, then add water and salt." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Cover and cook on low flame for 15-20 minutes, garnish with fresh coriander." />
+    </LinearLayout>
+</ScrollView>

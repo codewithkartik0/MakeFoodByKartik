@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Tandoori Chicken Image -->
+        <ImageView
+            android:id="@+id/tandoori_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tandoorichicken"
+            android:scaleType="centerCrop"
+            android:contentDescription="Tandoori Chicken" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/tandoori_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\nFor Marination (2-step marination):\n- 500g chicken (with bone)\n- 1 tbsp lemon juice\n- 1 tsp salt\n- 1 tsp red chili powder\n\nSecond Marination:\n- 1/2 cup curd\n- 1 tbsp ginger-garlic paste\n- 1 tbsp lemon juice\n- 1 tsp garam masala\n- 1/2 tsp turmeric\n- 1 tsp coriander powder\n- 1 tsp cumin powder\n- 1 tsp red chili powder\n- 1 tbsp mustard oil\n- Food color (optional)\n- Salt\n\nOther:\n- Butter/ghee for basting\n- Coriander and lemon for garnish"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Preparation Steps with CheckBoxes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+        <CheckBox
+            android:id="@+id/step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Wash and pat dry the chicken. Make deep cuts." />
+
+        <CheckBox
+            android:id="@+id/step2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: Mix lemon juice, salt, red chili and marinate 15–30 min." />
+
+        <CheckBox
+            android:id="@+id/step3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Mix curd, spices, oil and coat chicken. Marinate 4+ hrs." />
+
+        <CheckBox
+            android:id="@+id/step4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Preheat oven to 200°C and place chicken on tray." />
+
+        <CheckBox
+            android:id="@+id/step5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Bake 25–30 minutes, flipping halfway. Baste with butter." />
+
+        <CheckBox
+            android:id="@+id/step6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 6: Serve hot with mint chutney and lemon wedges." />
+
+
+    </LinearLayout>
+</ScrollView>

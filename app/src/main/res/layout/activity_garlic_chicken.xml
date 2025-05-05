@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Garlic Chicken Image -->
+        <ImageView
+            android:id="@+id/garlic_chicken_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tandoorichicken"
+            android:scaleType="centerCrop"
+            android:contentDescription="Garlic Chicken" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/garlic_chicken_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\n• 500g boneless chicken\n• 10 garlic cloves (finely chopped)\n• 1 tsp ginger-garlic paste\n• 1/2 tsp cumin powder\n• 1/2 tsp coriander powder\n• 1 tbsp soy sauce\n• 1 tbsp vinegar\n• 1 tbsp butter\n• 1 tbsp oil\n• Salt to taste\n• Fresh coriander leaves for garnish"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Steps Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Step CheckBoxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Marinate chicken with soy sauce, vinegar, and salt for 30 min." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: Heat butter and oil, sauté garlic and ginger-garlic paste until fragrant." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Add cumin and coriander powder, cook for 2 minutes." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Add marinated chicken, cook until browned on all sides." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Reduce heat, cook chicken until tender and the sauce thickens." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 6: Garnish with coriander leaves. Serve with rice or bread." />
+    </LinearLayout>
+</ScrollView>

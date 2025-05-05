@@ -1,0 +1,13 @@
+package com.example.makeyourfoodkartik;
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class VegetableStirFryActivity  extends AppCompatActivity {
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_vegetable_stir_fry);
+    }
+}
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal">
+
+        <!-- Aloo Gobi Image -->
+        <ImageView
+            android:id="@+id/aloo_gobi_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/aloogobi"
+            android:scaleType="centerCrop"
+            android:contentDescription="Aloo Gobi" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/aloo_gobi_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\n• 2 medium potatoes (peeled and cubed)\n• 1 medium cauliflower (cut into florets)\n• 1 onion (chopped)\n• 1 tomato (chopped)\n• 1 tbsp ginger-garlic paste\n• 1 tsp cumin seeds\n• 1 tsp turmeric powder\n• 1 tsp red chili powder\n• 1 tsp garam masala\n• Salt to taste\n• 2 tbsp oil\n• Fresh cilantro for garnish"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Steps Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Step CheckBoxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Heat oil in a pan, add cumin seeds and sauté until they splutter." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: Add chopped onions and ginger-garlic paste, cook until golden." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Add chopped tomatoes, turmeric powder, red chili powder, and garam masala. Cook until tomatoes soften." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Add potatoes and cauliflower, season with salt, and stir to combine." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Cover and cook on low heat for 15-20 minutes, stirring occasionally, until vegetables are tender." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 6: Garnish with fresh cilantro and serve with roti or rice." />
+    </LinearLayout>
+</ScrollView>

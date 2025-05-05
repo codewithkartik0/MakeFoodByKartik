@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal">
+
+        <!-- Chicken 65 Image -->
+        <ImageView
+            android:id="@+id/chicken_65_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/chicken65"
+            android:scaleType="centerCrop"
+            android:contentDescription="Chicken 65" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+
+        <!-- Ingredients -->
+        <TextView
+            android:id="@+id/chicken_65_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧂 Ingredients:\n\n• 500g boneless chicken\n• 1 tsp ginger-garlic paste\n• 1 tbsp rice flour\n• 1 tbsp corn flour\n• 1 tsp red chili powder\n• 1/2 tsp turmeric powder\n• 1/2 tsp garam masala\n• 2 tbsp yogurt\n• 1 egg\n• Salt to taste\n• Curry leaves\n• 1 tbsp lemon juice\n• Oil for frying"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <!-- Steps Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n👨‍🍳 Preparation Steps:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="24dp" />
+
+        <!-- Step CheckBoxes -->
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Marinate chicken with ginger-garlic paste, chili powder, yogurt, and spices for 1 hour." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: Coat the marinated chicken with rice flour, corn flour, and egg mixture." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Heat oil and deep fry the chicken until golden and crispy." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: In a pan, sauté curry leaves, add fried chicken and toss well." />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Add lemon juice and serve hot with onion rings or as a snack." />
+    </LinearLayout>
+</ScrollView>
